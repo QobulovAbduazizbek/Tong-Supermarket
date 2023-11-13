@@ -1,0 +1,573 @@
+:root {
+    --midnight-green: #014e56;
+    --light-coral: #f67e7e;
+    --white: #fff;
+    --rapture-blue: #79c8c7;
+    --polise-blue: #2c6269;
+    --deep-jungle-green: #004047;
+    --sacramento-state-green: #012f34;
+    --dark-green: #002529;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: var(--midnight-green);
+    font-family: 'Livvic' sans-serif;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-list {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header-list-item {
+    margin-right: 40px;
+
+}
+.main-hr{
+    width: 50px;
+    height: 4px;
+}
+.blue-hr{
+    width: 50px;
+    height: 4px;
+    background: var(--rapture-blue);
+    border: none;
+}
+.hr-red{
+    background: var(--light-coral);
+    border: none;
+    width: 50px;
+    height: 4px;
+    flex-shrink: 0;
+
+}
+.contact-link {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    border-radius: 29px;
+    border: 1px solid white;
+}
+
+
+
+.hero-container {
+    background-color: #014e56;
+    display: flex;
+
+}
+
+.hero-title {
+    margin-top: 146px;
+    font-family: Livvic;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #fff;
+    height: 200px;
+    width: 635px;
+    left: 190px;
+    top: 267px;
+    margin-bottom: 140px;
+
+}
+
+.hero-title-coral {
+    color: #f67e7e;
+}
+
+.hero-context {
+    margin-top: 146px;
+    align-items: center;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    max-width: 195px;
+}
+
+.main-hr {
+    width: 50px;
+    height: 4px;
+    margin-bottom: 79px;
+    color: var(--rapture-blue);
+}
+
+.hero-text {
+    justify-content: space-between;
+    height: 112px;
+    width: 445px;
+    left: 0px;
+    top: 83px;
+    border-radius: nullpx;
+    color: #FFFFFF; 
+}
+
+.build {
+    min-width: 1440px;
+    min-height: 684px;
+    margin-right: auto;
+    margin-left: auto;
+    background: var(--sacramento-state-green);
+}
+
+
+.build-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 198px;
+    padding-bottom: 50px;
+}
+.build-title {
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 445px;
+    height: 202px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; 
+    
+}
+
+.build-list {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.build-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+
+.build-list-item {
+    display: flex;
+    margin-bottom: 32px;
+    width: 100%;
+    max-width: 540px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    color: #FFFFFF;
+
+}
+
+.build-list-item-img {
+    margin-right: 23px;
+    width: 72px;
+    height: 72px;
+}
+
+.build-list-title {
+    color: #f67e7e;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+
+.header-link-item-link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.contact-link {
+    text-decoration: none;
+    color: var(--white);
+    padding: 9px 32px 11px 33px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    }
+/* section */
+
+.storis {
+    grid-template:repeat(3 1fr) ;
+    gap: 30px;
+    color: var(--white);
+}
+.storis-title {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 56px;
+
+
+}
+.storis-title-mark {
+    color: var(--rapture-blue);
+}
+.storis-list {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+}
+.storis-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 36px;
+    z-index: 2;
+}
+
+
+.storis-text {
+    text-align: center;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 24px;
+}
+
+.storis-owoner {
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 24px;
+    text-align: center;
+    color: var(--rapture-blue);
+}
+.storis-owoner-job {
+    font-family: Livvic;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.storis-owoner-img {
+    border-radius: 50%;
+    /* margin-bottom: 151px; */
+
+}
+.cta{
+    padding:76px  260px;
+    background: var(--light-coral);
+}
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cta-title {
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.contact-link-blk {
+    border:2px solid #012f34;
+    color: #012f34;
+}
+
+/* footer */
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 108px;
+    background-color: var(--dark-green);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo-nav {
+    margin-right: 125px;
+    width: 160px;
+    height: 40px;
+
+}
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list-item {
+   
+}
+.header-link-item-link {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px; 
+    
+}
+address{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; 
+    opacity: 0.6;
+}
+.footer-right {
+}
+.socials {
+    display: flex;
+    justify-content: end;
+    color:  var(--white);
+}
+.social svg{
+    list-style: none;
+    margin-right: 15px;
+    background-color: var(--white);
+}
+
+.copyright {
+    color: #FFF;
+    opacity: 0.6;
+    text-align: right;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; 
+}
+.icon{
+    margin-bottom: 51px;
+}
+
+/* about */
+.abaut-container {
+    padding-top: 124px;
+    /* padding-bottom: 120px; */
+    display: flex;
+    align-items: start;
+}
+
+.about-title {
+    width: 100%;
+    max-width: 350px;
+    padding-bottom: 176px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.aqua-hr {
+    width: 50px;
+    height: 4px;
+    border: none;
+    background: var(--light-coral);
+    margin-bottom: 44px;
+}
+
+.abaut-context {
+    width: 100%;
+    max-width: 730px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+/* Meet */
+.meet {
+    padding-top: 154px;
+    padding-bottom: 140px;
+    background: var(--deep-jungle-green);
+    row-gap: 67px;
+}
+
+.meet-title {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Livvic;
+    font-size: 48px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.meet-ul {
+    max-width: 1200px;
+    padding-top: 200px;
+    list-style: none;
+    padding: 0 20px;
+    /* height: 100vh;  */
+    margin: 0 auto;
+    /* background: burlywood; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.meet-li {
+    width: 350px;
+    height: 253px;
+    flex-shrink: 0;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.meet-div {
+    background: var(--sacramento-state-green);
+    height: 253px;
+
+}
+
+.meet-name {
+    color: var(--rapture-blue);
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+
+
+}
+
+.meet-text {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.meet-name-Aden{
+    color: var(--rapture-blue);
+    padding-top: 35px;
+    margin-bottom: 8px;
+font-family: Livvic;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+}
+.meet-text-truly{
+    color: #FFF;
+    font-family: Livvic;
+    margin-bottom: 24px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px; 
+}
+
+.meet-img-1 {
+    margin-bottom: 19px;
+    margin-top: 34px;
+    border-radius: 50%;
+}
+
+.meet-img-2 {
+    z-index:2;
+    position: absolute;
+    top: end; 
+    left: 150px;
+    bottom: -25px;
+
+}
+
+/* font-family */
+.font-family {
+    padding-top: 140px;
+    padding-bottom: 156px;
+    background: var(--sacramento-state-green);
+}
+
+.font-container {
+    width: 100%;
+    max-width: 1180px;
+    height: 437px;
+}
+
+.font-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.font-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-rule: #f67e7e;
+  border-radius: 10px solid black;
+}
+
+.font-li {
+    list-style: none;
+}
+.font-img {
+    width: 165px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
